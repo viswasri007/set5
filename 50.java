@@ -11,12 +11,18 @@ class Guvi
 		{
 			System.out.println("no");
 		}
-		while(n!=1)
-		if(n%2!=0)
+		if(n==1)
+		{
+			System.out.println("yes");
+		}
+		else if(n%2!=0)
 		{
 			System.out.println("no");
 			n=n/2;
 		}
-		System.out.println("yes");
+		else
+		{
+			System.out.println("yes");
+		}
 	}
 }
